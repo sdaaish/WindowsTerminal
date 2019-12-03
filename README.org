@@ -1,0 +1,2 @@
+* Windows Terminal Settings
+Settings for [[https://github.com/microsoft/terminal][Windows Terminal]].
