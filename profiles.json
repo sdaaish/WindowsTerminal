@@ -14,7 +14,7 @@
     "profiles":
     [
         {
-            "closeOnExit" : true,
+            "closeOnExit" : false,
             "colorScheme" : "Campbell",
             "commandline" : "C:\\ProgramData\\scoop\\shims\\pwsh.exe",
             "cursorColor" : "#00FFFF",
