@@ -81,6 +81,23 @@
             "hidden": true,
             "name": "Azure Cloud Shell",
             "source": "Windows.Terminal.Azure"
+        },
+        {
+            "closeOnExit" : false,
+            "colorScheme" : "My Dark",
+            "commandline" : "C:\\ProgramData\\scoop\\shims\\pwsh.exe -NoProfile",
+            "cursorColor" : "#00FFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Delugia Nerd Font",
+            "fontSize" : 10,
+            "guid" : "{4a4a40d4-b66b-479e-9f69-f7218a87f5fd}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+            "name" : "Core NoProfile",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
         }
     ],
 
