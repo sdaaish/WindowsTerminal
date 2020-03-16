@@ -16,7 +16,7 @@
         {
             "closeOnExit" : false,
             "colorScheme" : "Campbell",
-            "commandline" : "C:\\ProgramData\\scoop\\shims\\pwsh.exe",
+            "commandline" : "pwsh.exe",
             "cursorColor" : "#00FFFF",
             "cursorShape" : "bar",
             "fontFace" : "Delugia Nerd Font",
@@ -89,7 +89,7 @@
         {
             "closeOnExit" : false,
             "colorScheme" : "My Dark",
-            "commandline" : "C:\\ProgramData\\scoop\\shims\\pwsh.exe -NoProfile",
+            "commandline" : "pwsh.exe -NoProfile",
             "cursorColor" : "#00FFFF",
             "cursorShape" : "bar",
             "fontFace" : "Delugia Nerd Font",
