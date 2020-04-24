@@ -102,6 +102,12 @@
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
             "useAcrylic" : false
+        },
+        {
+            "guid": "{6f9994f0-4403-5e85-9cce-98e5da3839bb}",
+            "hidden": false,
+            "name": "Ubuntu-16.04",
+            "source": "Windows.Terminal.Wsl"
         }
     ],
 
