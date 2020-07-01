@@ -13,10 +13,13 @@
     "copyOnSelect" : true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "copyFormatting": false,
+    "disabledProfileSources": ["Windows.Terminal.Wsl", "Windows.Terminal.Azure", "Windows.Terminal.PowershellCore"],
+    "launchMode" : "maximized",
 
     "profiles":
     [
         {
+            // Powershell Core
             "closeOnExit": false,
             "colorScheme": "Campbell",
             "commandline": "pwsh.exe",
@@ -57,11 +60,22 @@
             "startingDirectory": "~"
         },
         {
+            // Ubuntu 20.04
+            "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+            "hidden": false,
+            "name": "Ubuntu-20.04",
+            "commandline": "Ubuntu2004.exe", // Add this to start in homedirectory.
+            "fontFace": "Delugia Nerd Font",
+            "fontSize": 10,
+            "source": "Windows.Terminal.Wsl",
+            "startingDirectory": "~"
+        },
+        {
             // Ubuntu 16
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "guid": "{6f9994f0-4403-5e85-9cce-98e5da3839bb}",
             "hidden": false,
             "name": "Ubuntu 16",
-            "commandline": "ubuntu.exe", // Add this to start in homedirectory.
+            "commandline": "ubuntu1604.exe", // Add this to start in homedirectory.
             "source": "Windows.Terminal.Wsl",
             "startingDirectory": "~"
         },
@@ -84,12 +98,14 @@
             "startingDirectory" : "~"
         },
         {
+            // Azure cloud shell
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
             "hidden": false,
             "name": "Azure Cloud Shell",
             "source": "Windows.Terminal.Azure"
         },
         {
+            // Powershell Core without profile
             "closeOnExit" : false,
             "colorScheme" : "My Dark",
             "commandline" : "pwsh.exe -NoProfile",
@@ -105,7 +121,18 @@
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
             "useAcrylic" : false
-        }
+        },
+        {
+            // Ubuntu Multipass
+			      "background" : "#350425",
+			      "commandline" : "multipass shell",
+			      "cursorShape" : "bar",
+			      "fontFace" : "Ubuntu Mono",
+			      "guid" : "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
+			      "historySize" : 50000,
+			      "icon" : "c:/program files/multipass/bin/multipass_wt.ico",
+			      "name" : "Multipass"
+		    }
     ],
 
     // Add custom color schemes to this array.
