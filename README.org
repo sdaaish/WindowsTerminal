@@ -6,3 +6,7 @@ These are located in ~"$env:USERPROfile/AppData/Local/Microsoft/Windows Terminal
 There are now updated manuals at [[https://docs.microsoft.com/en-us/windows/terminal/][Microsoft Docs]] regarding settings and options.
 
 I'm using *Delugia Nerd Font* since the suggested font, *Cascadia Code*, didn't have Powerline fonts at the time. But there is a new version that includes this, *Cascadia-PL*.
+** Extras
+I have added the default settings you can use in the [[defaults.json]] file, and the settings you might get when you start with an empty profile in [[initial.settings.json]]. These settings are created based on what you have installed and are in this case from the current shells I had installed at the moment.
+
+To get your own initial settings, just clear the settings,json file and it will be created automatically. And to see the default settings, just press *Alt* when you click settings in the menu in Windows Terminal.
