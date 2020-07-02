@@ -1,7 +1,7 @@
 * Windows Terminal Settings
 Settings for [[https://github.com/microsoft/terminal][Windows Terminal]].
 
-These are located in ~"$env:USERPROfile/AppData/Local/Microsoft/Windows Terminal"~ for the preview version (*1.1.1671.0*)and in ~"$env:USERPROFILE/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"~ for the main release (*1.0.1401.0*). Which is a bit annoying.
+These are located in *"$env:USERPROfile/AppData/Local/Microsoft/Windows Terminal"* for the preview version (*1.1.1671.0*)and in *"$env:USERPROFILE/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"* for the main release (*1.0.1401.0*). Which is a bit annoying.
 
 There are now updated manuals at [[https://docs.microsoft.com/en-us/windows/terminal/][Microsoft Docs]] regarding settings and options.
 
