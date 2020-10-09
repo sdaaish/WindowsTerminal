@@ -4,6 +4,7 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "alwaysShowTabs" : true,
     "showTabsInTitlebar" : true,
+    "useTabSwitcher": false ,
     "copyOnSelect" : true,
     "copyFormatting": false,
     "disabledProfileSources": ["Windows.Terminal.Wsl", "Windows.Terminal.PowershellCore"],
