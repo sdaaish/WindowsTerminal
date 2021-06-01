@@ -57,7 +57,7 @@
                 "commandline": "Ubuntu1804.exe", // Add this to start in homedirectory.
                 "fontFace": "Delugia Nerd Font",
                 "fontSize": 10,
-                "startingDirectory": "~"
+                "startingDirectory": ""
             },
             {
                 // Ubuntu 20.04
@@ -67,7 +67,7 @@
                 "commandline": "Ubuntu2004.exe", // Add this to start in homedirectory.
                 "fontFace": "Delugia Nerd Font",
                 "fontSize": 10,
-                "startingDirectory": "~"
+                "startingDirectory": ""
             },
             {
                 // Ubuntu 16
@@ -75,7 +75,7 @@
                 "hidden": false,
                 "name": "Ubuntu 16",
                 "commandline": "ubuntu1604.exe", // Add this to start in homedirectory.
-                "startingDirectory": "~"
+                "startingDirectory": ""
             },
             {
                 // Debian
@@ -83,7 +83,7 @@
                 "hidden": false,
                 "name": "Debian",
                 "commandline": "debian.exe", // Add this to start in homedirectory.
-                "startingDirectory" : "~"
+                "startingDirectory" : ""
             },
             {
                 // Ubuntu Multipass
