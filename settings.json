@@ -27,8 +27,8 @@
                 "commandline": "pwsh.exe",
                 "cursorColor": "#00FFFF",
                 "cursorShape": "bar",
-                "fontFace": "Delugia Nerd Font",
-                "fontSize": 10,
+                "fontFace": "Delugia",
+                "fontSize": 11,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
@@ -43,7 +43,7 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "colorScheme": "Campbell",
-                "fontFace": "Delugia Nerd Font",
+                "fontFace": "Delugia",
                 "fontSize": 10,
                 "startingDirectory": "%USERPROFILE%",
                 "historySize": 9001,
@@ -55,7 +55,7 @@
                 "hidden": false,
                 "name": "Ubuntu-18.04",
                 "commandline": "Ubuntu1804.exe", // Add this to start in homedirectory.
-                "fontFace": "Delugia Nerd Font",
+                "fontFace": "Delugia",
                 "fontSize": 10,
                 "startingDirectory": ""
             },
@@ -65,7 +65,7 @@
                 "hidden": false,
                 "name": "Ubuntu-20.04",
                 "commandline": "Ubuntu2004.exe", // Add this to start in homedirectory.
-                "fontFace": "Delugia Nerd Font",
+                "fontFace": "Delugia",
                 "fontSize": 10,
                 "startingDirectory": ""
             },
@@ -90,7 +90,7 @@
 			          "background" : "#350425",
 			          "commandline" : "multipass shell",
 			          "cursorShape" : "bar",
-			          "fontFace" : "Ubuntu Mono",
+			          "fontFace" : "Ubuntu",
 			          "guid" : "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
 			          "historySize" : 50000,
 			          "icon" : "c:/program files/multipass/bin/multipass_wt.ico",
@@ -110,7 +110,7 @@
                 "commandline" : "pwsh.exe -NoProfile",
                 "cursorColor" : "#00FFFF",
                 "cursorShape" : "bar",
-                "fontFace" : "Delugia Nerd Font",
+                "fontFace" : "Delugia",
                 "fontSize" : 10,
                 "guid" : "{4a4a40d4-b66b-479e-9f69-f7218a87f5fd}",
                 "historySize" : 9001,
@@ -125,7 +125,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "cmd",
                 "commandline": "cmd.exe",
-                "fontFace" : "Delugia Nerd Font",
+                "fontFace" : "Delugia",
                 "fontSize" : 10,
                 "hidden": false
             }
