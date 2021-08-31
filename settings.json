@@ -50,21 +50,31 @@
                 "hidden": false
             },
             {
-                // Ubuntu 18.04
-                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                // Ubuntu 20.04 fixed
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "name": "Ubuntu-18.04",
-                "commandline": "Ubuntu1804.exe", // Add this to start in homedirectory.
+                "name": "Ubuntu-20.04",
+                "commandline": "Ubuntu2004.exe", // Add this to start in homedirectory.
                 "fontFace": "Delugia",
                 "fontSize": 10,
                 "startingDirectory": ""
             },
             {
-                // Ubuntu 20.04
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                // Ubuntu 20.04, latest
+                "guid": "{c65c08b5-56e8-4fb1-8238-803c0194069b}",
                 "hidden": false,
-                "name": "Ubuntu-20.04",
-                "commandline": "Ubuntu2004.exe", // Add this to start in homedirectory.
+                "name": "Ubuntu",
+                "commandline": "Ubuntu.exe", // Add this to start in homedirectory.
+                "fontFace": "Delugia",
+                "fontSize": 10,
+                "startingDirectory": ""
+            },
+            {
+                // Ubuntu 18.04
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "commandline": "Ubuntu1804.exe", // Add this to start in homedirectory.
                 "fontFace": "Delugia",
                 "fontSize": 10,
                 "startingDirectory": ""
