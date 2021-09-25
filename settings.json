@@ -138,6 +138,17 @@
                 "fontFace" : "Delugia",
                 "fontSize" : 10,
                 "hidden": false
+            },
+            {
+                // Nushell
+                "guid": "{150ce91f-a9f1-4300-93b2-ff0faeb89029}",
+                "name": "NuShell",
+                "commandline": "c:/Program Files/nu/bin/nu.exe",
+                "fontFace" : "Delugia",
+                "fontSize" : 10,
+                "hidden": false,
+                "startingDirectory": "%USERPROFILE%",
+                "icon" : "%APPDATA%/nushell/nu/config/icon.png"
             }
         ]
     },
