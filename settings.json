@@ -182,18 +182,21 @@
     // Add custom keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
     // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
+    // Keybindings are called actions from 1.4
+    //https://docs.microsoft.com/en-us/windows/terminal/customize-settings/actions
     "actions":
     [
-        { "command" : "closeTab", "keys" : ["ctrl+w"] },
-        { "command" : "newTab", "keys" : ["ctrl+t"] },
-        { "command" : "prevTab", "keys" : ["ctrl+pgup"] },
-        { "command" : "nextTab", "keys" : ["ctrl+pgdn"] },
+        { "command" : "closeTab", "keys" : "ctrl+w" },
+        { "command" : "newTab", "keys" : "ctrl+t" },
+        { "command" : "prevTab", "keys" : "ctrl+pgup" },
+        { "command" : "nextTab", "keys" : "ctrl+pgdn" },
         // Commands for panes
-        { "command": "splitHorizontal", "keys": ["alt+shift+-"] },
-        { "command": "splitVertical", "keys": ["alt+-"] },
-        { "command": "closePane","keys": [ "ctrl+w" ] },
+        { "command": "splitHorizontal", "keys": "alt+shift+-" },
+        { "command": "splitVertical", "keys": "alt+-" },
+        { "command": "closePane","keys":  "ctrl+w"  },
         // Font resize
-        { "command": "decreaseFontSize", "keys": [ "ctrl+-" ] },
-        { "command": "increaseFontSize", "keys": [ "ctrl+shift+-" ] }
+        { "command": "decreaseFontSize", "keys":  "ctrl+?" },
+        { "command": "increaseFontSize", "keys":  "ctrl++" },
+        { "command": "commandPalette", "keys": "alt+x" }
     ]
 }
